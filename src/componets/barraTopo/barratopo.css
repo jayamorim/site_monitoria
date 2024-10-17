@@ -1,0 +1,45 @@
+.topo {
+  width:80em;
+  display: flex;
+  align-items: center;
+  background-color: rgb(4, 4, 4);
+  flex-direction: inline;
+  height: 100px;
+  
+}
+
+.titulo{
+  color: rgb(250, 249, 249);
+  font-size: 30px;
+  font-weight: 200px;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 20px;
+}
+
+.topoCentro { 
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex: 1;
+
+}
+.logo {
+  margin-top: 15px;
+  width: 100px;
+}
+
+.topoLista {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.topoListaItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 200px;
+  cursor: pointer;
+  color: rgb(250, 249, 249);
+  font-family: "Lucida Sans", sans-serif;
+  
+}

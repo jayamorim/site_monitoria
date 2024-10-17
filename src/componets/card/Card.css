@@ -1,0 +1,86 @@
+.card-container {
+  margin-left: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #919190;
+  color: #050000;
+  padding: 10px;
+  font-family: "Lucida Sans", sans-serif;
+  transition: transform 0.5s ease;
+  width: 20em;
+  height: 400px;
+}
+
+.card-titulo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #050000;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+img {
+  width: 50%;
+
+}
+
+  .card-pedido{
+
+    background-color: #c1b6b6;
+    font-size: 13px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 70px;
+    
+
+  }
+
+  .card-link{
+
+    background-color: #c1b6b6;
+    font-size: 13px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-family: "Lucida Sans", sans-serif;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: right;
+    margin-left: 10px;
+    justify-content: center;
+    
+
+  }
+
+.expand-img {
+  width: 500%;
+  height: 100%;
+}
+.card-container:hover {
+  transform: scale(1.1);
+}
+
+
+.card-image {
+  width: 200px;
+  height: auto;
+}
+
+.card-text-container {
+  margin-top: 10px;
+}
+
+.card-text {
+  color: #333;
+  font-size: 16px;
+}
