@@ -19,8 +19,8 @@ export const Cabecalho = () => {
   <BarraTopo />       
     <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route exact path="/Duvidas" element={<Duvidas />} />
-      <Route exact path="/Contatos" element={<Contatos />} />
+      <Route  path="/Duvidas" element={<Duvidas />} />
+      <Route  path="/Contatos" element={<Contatos />} />
 
     
     </Routes>

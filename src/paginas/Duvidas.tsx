@@ -3,15 +3,15 @@ import { Card } from "../componets/card/Card ";
 import { Dados } from "../utils/Dados";
 
 
-export default function Home() {
+export default function Duvidas() {
   const items_caixas: { id: string; duvida: string; texto: string; link:string; foto: string }[] = Dados;
 
   
   return (
     <>
-      <div className="Home">
+      <div className="Duvidas">
         <h2>DUVIDAS</h2>
-        <ul>
+        <ul className="cardUl">
           {
             items_caixas.map
             (

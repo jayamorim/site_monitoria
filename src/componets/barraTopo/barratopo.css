@@ -1,31 +1,33 @@
 .topo {
-  width:80em;
+
   display: flex;
   align-items: center;
   background-color: rgb(4, 4, 4);
-  flex-direction: inline;
   height: 100px;
+ overflow-x: hidden;
+width: 100vw;
   
 }
 
 .titulo{
   color: rgb(250, 249, 249);
   font-size: 30px;
-  font-weight: 200px;
-  font-family: "Lucida Sans", sans-serif;
-  margin-left: 20px;
+  font-weight: 100px;
+  font-family:'Lucida Sans',  sans-serif;
+  margin-left: 10%;
 }
 
 .topoCentro { 
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   align-items: center;
-  flex: 1;
+
+
 
 }
 .logo {
   margin-top: 15px;
-  width: 100px;
+  width: 80px;
 }
 
 .topoLista {
@@ -36,7 +38,7 @@
 
 .topoListaItem {
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200px;
   cursor: pointer;
   color: rgb(250, 249, 249);

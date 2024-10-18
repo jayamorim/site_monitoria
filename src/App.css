@@ -1,6 +1,8 @@
 .teste {
  
-  height: 250vh;
-  width: 83em;
-  background-color: rgb(0, 0, 0);
+  height: 100%;
+overflow-x: hidden;
+  width: 100vw;
+  background-color: black;
+
 }
