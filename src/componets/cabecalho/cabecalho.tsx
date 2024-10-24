@@ -1,4 +1,4 @@
-
+import "../../paginas/paginas.css";
 import  Home  from "../../paginas/Home"
 import  Duvidas  from "../../paginas/Duvidas"
 import  Contatos  from "../../paginas/Contatos"
@@ -15,10 +15,10 @@ export const Cabecalho = () => {
   return (
     <>
 
-<Router>
+<Router >
   <BarraTopo />       
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route  path="/" element={<Home />} />
       <Route  path="/Duvidas" element={<Duvidas />} />
       <Route  path="/Contatos" element={<Contatos />} />
 

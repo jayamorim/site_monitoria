@@ -1,4 +1,4 @@
-import './App.css'
+import "../src/paginas/paginas.css";
 import { Cabecalho } from './componets/cabecalho/cabecalho'
 
 

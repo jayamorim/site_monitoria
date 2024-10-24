@@ -1,4 +1,4 @@
-import "./Card.css"; // Estilos CSS importados
+import "../../paginas/paginas.css";
 
 export interface CardProps {
   titulo: string;

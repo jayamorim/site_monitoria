@@ -1,3 +1,4 @@
+import "../../paginas/paginas.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/fotos/Brasão_Ufal.png";
 import Logo_react from "../../assets/fotos/Logo_react_pequena.png";
