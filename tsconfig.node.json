@@ -4,6 +4,10 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+   
+    
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -18,5 +22,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts"]
+  "include": ["src/**/*.ts"]
+
 }

@@ -1,25 +1,210 @@
+/* app */
+.teste {
+  height: 100%;
+  overflow-x: hidden;
+  width: 100vw;
+  background-color: black;
+}
+/* barra topo */
+.topo {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  overflow-x: hidden;
+  width: 100vw;
+}
+.topoCentro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 18%;
+}
+.logo {
+  margin-top: 15px;
+  width: 80px;
+  margin-left: 35px;
+}
+.titulo_monitoria {
+  color: rgb(250, 249, 249);
+  font-size: 45px;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 10%;
+}
+.topoLista {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.topoListaItem {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 200px;
+  cursor: pointer;
+  color: rgb(250, 249, 249);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* card/monitoria */
+.card-container {
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #5f6069;
+  padding: 10px;
+  font-family: "Lucida Sans", sans-serif;
+  transition: transform 0.5s ease;
+  width: 13em;
+  height: auto;
+  margin: 10px;
+}
+.card-titulo {
+  display: flex;
+  font-size: 17px;
+  font-weight: 700;
+  color: #050000;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: auto;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-corpo {
+  font-size: 10px;
+  font-weight: 700;
+  text-align: justify;
+  color: #050000;
+  font-family: "Courier New", Courier, monospace;
+  height: 160px;
+  width: auto;
+}
+img {
+  width: 50%;
+}
+.card-pedido {
+  background-color: #c1b6b6;
+  border-radius: 10px;
+}
+.card-link {
+  font-size: 13px;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", sans-serif;
+  transition: transform 0.3s ease;
+  width: 40%;
+  text-align: right;
+  justify-content: center;
+}
+.expand-img {
+  width: 500%;
+  height: 100%;
+}
+.card-container:hover {
+  transform: scale(1.5);
+  background-color: #8e8e80;
+}
+.card-image {
+  width: 200px;
+  height: auto;
+}
+.card-text-container {
+  margin-top: 10px;
+}
+.card-text {
+  color: #333;
+  font-size: 16px;
+}
+/* Home */
 .Home {
   background-color: rgb(0, 0, 0);
   height: 100%;
   width: 100%;
   color: #ffffff;
 }
+/* Duvidas */
 .Duvidas {
-  background-color: rgb(0, 0, 0);
-  height: 100%;
   width: 100%;
-  margin-top: -16px;
 }
-.cardUl{
+.cardUl {
   display: inline-block;
-
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-.Contatos {
-  background-color: rgb(0, 0, 0);
+
+/* Contatos */
+
+.titulo {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Lucida Sans", sans-serif;
+  padding-left: 30px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.titulo:hover {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Lucida Sans", sans-serif;
+  padding-left: 30px;
+  margin-top: 10px;
+  color: #da1e1e;
+}
+
+.telefone {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.email {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.horarios {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.meet {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.contener {
   height: 100%;
   width: 80em;
+}
+.monitor {
+  border-radius: 20;
+  display: flex;
+  height: 300px;
+  width: auto;
+  border: #ffffff 2px solid;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.primeiro_contaner {
+  width: 20%;
 }
 
 .imagem {
@@ -27,29 +212,91 @@
   height: 150;
 }
 
-h2 {
-  width: 100%;
-  color: #b1b1b1;
-  margin-left: 40px;
-  font-size: 20px;
-  font-weight: 600;
+.imagem_monitor {
+  width: 150px;
+  height: 150;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.paragrafo {
+  padding: 20px;
+
+  width: 50%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
   font-family: "Lucida Sans", sans-serif;
 }
-h3 {
-  width: 100%;
+.agendamento {
+  width: 30%;
   color: #ffffff;
+}
+.segundo_contaner {
+  border: #ffffff 2px solid;
+  margin-left: 30px;
+  border-radius: 20px;
+  display: flex;
+  height: 350px;
+  width: auto;
+}
+.duvida_premeiro_contener {
+  width: 40%;
+}
+
+.paragrafo2 {
+  padding: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 10px;
+}
+.imagem_duvida {
+  width: 150px;
+  height: 150;
+  margin-left: 330px;
+  margin-top: 10px;
+}
+.botao_duvida {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Lucida Sans", sans-serif;
+  margin-left: 330px;
+  margin-top: 5px;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+}
+
+.duvida_segundo_contener {
+  width: auto;
+}
+
+.paragrafo3 {
+  padding: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Lucida Sans", sans-serif;
+  height: 20px;
+  width: 95%;
+}
+textarea {
   margin: 20px;
+  width: 700px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 button {
-  background-color: #985050;
-  color: #333;
-  padding: 10px 20px;
-  border: 1px solid #3a14ab;
-  border-radius: 4px;
-  margin: 10px 0;
-}
-
-button:hover {
-  background-color: #efa110;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Lucida Sans", sans-serif;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin-left: 50px;
 }

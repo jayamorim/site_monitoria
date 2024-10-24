@@ -1,4 +1,44 @@
 export const Dados =  [
+
+  {
+    id: "1",
+    duvida: "Desenvolvimento para web?",
+    texto: "Consiste na programação/criação de sistemas de internet, que podem ser acessados em: smartphones, tablets, laptops e desktops",
+    link: "https://ebaconline.com.br/blog/o-que-e-desenvolvimento-web-e-o-que-inclui-seo",
+    foto: "https://www.alura.com.br/artigos/assets/react-native/arquivo-estilos-react-native.jpg",
+  },
+
+  {
+    id: "2",
+    duvida: "O que é Visual Code?",
+    texto: "O Visual Studio Code (VS Code) é um editor de código-fonte leve e poderoso, desenvolvido pela Microsoft. É um software de código aberto que está disponível para as plataformas Windows, macOS e Linux, e é amplamente utilizado para o desenvolvimento de aplicações web.",
+    link: "https://code.visualstudio.com/",
+    foto: "https://www.alura.com.br/artigos/assets/react-native/arquivo-estilos-react-native.jpg",
+  },
+
+  {
+    id: "3",
+    duvida: "Download Visual Studio Code",
+    texto: "Gratuito e construído em código aberto. Git integrado, depuração e extensões.",
+    link: "https://code.visualstudio.com/download",
+    foto: "https://www.alura.com.br/artigos/assets/react-native/arquivo-estilos-react-native.jpg",
+  },
+
+  {
+    id: "4",
+    duvida: "O que é Node.Js? e como baixar",
+    texto: "Node.js é uma plataforma de desenvolvimento de código aberto e gratuita que permite a execução de código JavaScript fora de um navegador web. ",
+    link: "https://nodejs.org/pt",
+    foto: "https://www.alura.com.br/artigos/assets/react-native/arquivo-estilos-react-native.jpg",
+  },
+
+
+
+
+
+
+
+
   {
     id: "1",
     duvida: "Instalação",
@@ -58,6 +98,21 @@ export const Dados =  [
   link: "https://react.dev/learn/start-a-new-react-project",
   foto: "https://www.alura.com.br/artigos/assets/react-native/arquivo-estilos-react-native.jpg",
   },
+{
+  id: "9",
+  duvida: "Como criar e alinhar componentes",
+  texto: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum has been the industry's, Lorem Ipsum has been the industry's  ",
+  link: "https://react.dev/learn/start-a-new-react-project",
+  foto: "https://www.alura.com.br/artigos/assets/react-native/arquivo-estilos-react-native.jpg",
+},
+{
+  id: "9",
+  duvida: "Como criar e alinhar componentes",
+  texto: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum has been the industry's, Lorem Ipsum has been the industry's  ",
+  link: "https://react.dev/learn/start-a-new-react-project",
+  foto: "https://www.alura.com.br/artigos/assets/react-native/arquivo-estilos-react-native.jpg",
+},
+
 {
   id: "9",
   duvida: "Como criar e alinhar componentes",
